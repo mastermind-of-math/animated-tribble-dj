@@ -1,0 +1,70 @@
+body{
+    background-size: cover;
+    font-family: monospace;
+}
+
+#intro{
+    background-color: #0997db;
+    color: #044f73;
+    font-size: 24px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#intro:hover{
+    background-color: #044f73;
+    color: #0997db;
+}
+
+#speeddiv{
+    float: left;
+}
+
+#volumediv{
+    float: right;
+}
+
+.disk{
+    margin: 40px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+.display{
+    background-color: #0997db;
+    color: #044f73;
+    font-size: 24px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.display:hover{
+    background-color: #044f73;
+    color: #0997db;
+}
+
+button{
+    background-color: #05ef11;
+    color: #2ba800;
+    font-size: 24px;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+}
+
+button:hover{
+    background-color: #2ba800;
+    color: #05ef11;
+}
+
+#span:hover{
+    background-color: #46e3df;
+}
+
+canvas{
+    border-radius: 15px;
+    border-style: hidden;
+    background-color: gray;
+}
